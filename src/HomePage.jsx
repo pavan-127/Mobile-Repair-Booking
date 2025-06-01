@@ -5,7 +5,7 @@ import './Footer.css';
 
 const services = [
   
-  { name: "Repair Phone", image: "/public/Repair1.avif" },
+  { name: "Repair Phone", image: "/Repair1.avif" },
   
 ];
 
