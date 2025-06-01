@@ -1,0 +1,117 @@
+/* homepage.css */
+
+.banner {
+  background-color: #000;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner button {
+  margin-top: 1rem;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.banner button:hover {
+  background-color: #f0f0f0;
+}
+
+.banner p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.services-section {
+  background-color: #f3f3f3;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.services-section h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-card {
+  text-align: center;
+  width: 100%;
+}
+
+.service-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  object-fit: cover;
+}
+
+
+
+/* homepage-responsive.css */
+
+@media screen and (max-width: 768px) {
+  .banner h2 {
+    font-size: 18px;
+  }
+
+  .banner button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .banner p {
+    font-size: 12px;
+  }
+
+  .services-section {
+    padding: 10px 10px;
+  }
+
+  .services-section h3 {
+    font-size: 20px;
+  }
+
+  .services-grid {
+    gap: 16px;
+  }
+
+  .service-img {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .service-card {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+
+  .service-card p {
+    font-size: 14px;
+  }
+}
